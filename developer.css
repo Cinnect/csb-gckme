@@ -1,0 +1,231 @@
+/*** colors ***/
+.black-txt{color:#000;}
+.blue-txt{color:#312f75;}
+.grey-txt{color:#a7a7a7;}
+.fw600{font-weight: 600;}
+
+/** plan bgs **/
+.plan-1{background-color: #238daf;}
+.plan-2{background-color: #225c92;}
+.plan-3{background-color: #3a4c96;}
+.white-bg{background-color: #fff;}
+
+/** card **/
+.card .icn{padding:0 2rem; min-height: 250px; background: #f8f9fa; display: flex; align-items: center; justify-content: center; }
+.card .icn i{color:#312f75;}
+.card .card-text{min-height: 70px;}
+.card .card-title{display: flex; align-items: center; justify-content: space-between;}
+
+/** footer **/
+.foot_menu li{display: inline-block; padding:0 25px;}
+.foot_menu li:last-child{padding-right:0;}
+
+/** profile settings **/
+.form-group{margin-bottom:1.5rem;}
+.setting__content a{display: block; font-size: 1.25rem; padding:10px 0; font-weight: 400; transition: 0.5s ease-in-out; color:#000;}
+.setting__content a:hover,.setting__content a.active{background-color: #312f75; color:#fff !important; padding:10px;}
+.setting__item{margin-bottom:35px;}
+.profile__settings__main .form-group label,.file__label{color:#333; margin-bottom:5px; font-weight: 700; font-size: 15px; display: block;}
+.profile__information .form-control.frm__fld{background: #f9f9f9; color:rgb(114 114 114); font-weight: 600; font-size: 15px; height: 34px; min-height: auto;  padding: 0 40px 0 15px;}
+.profile__information .frm__fld:focus{outline:none; box-shadow: none; border-color:#312f75;}
+.profile__picture__item .profile__picture{border: 1px solid rgb(114 114 114); height: 150px; width: 150px; }
+.profile__picture__item {display: flex;}
+.profile__picture__item .edit__profile__picture{align-self:flex-end; margin-left:30px;}
+#file_input_wrap_label{padding:0 32px; border-radius: 3px;}
+.file__hide {display: none; }
+.frm__fld__input{position: relative;}
+.frm__fld__edit__link{font-size:14px; position: absolute; top: 6px; right: 15px; color:#00529c; font-weight: 600;}
+
+/** account information **/
+.account__information .form-group .frm__fld{border-top: none; border-left: none; border-right: none; border-bottom: 2px solid #eee; padding: 18px 0; text-transform: uppercase; color: #312f75; font-size: 20px; font-weight: 600; }
+.account__information .form-group select.frm__fld{padding:0;}
+.account__information .form-group .frm__fld:focus{outline: none; box-shadow: none; border-bottom:2px solid #312f75;}
+.account__information .frm__fld__edit__link{top:unset; bottom:6px; right:0;}
+h5.inner__title{color:#7270bf;}
+
+/** security **/
+.security.profile__information .form-control.frm__fld{padding: 0 170px 0 15px;}
+
+/** company information **/
+.frm__txtarea{width: 100%; background: #f9f9f9; color:rgb(114 114 114); font-weight: 600; font-size: 15px;}
+.frm__txtarea:focus{outline: none; box-shadow: none; border-color: #312f75; }
+
+/** Company Documents **/
+.company__documents .edit__profile__picture{margin-left:0;}
+.company__doc__item .badge-primary {color: #000; background-color: #fff; border: 1px solid #000; padding: 3px 10px; }
+.company__doc__item .doc__image{background: #d6d6d6; min-height: 200px; }
+.company__doc__item{margin-bottom:30px;}
+
+/** team members **/
+.member__image{background: #d6d6d6; min-height: 150px; border-radius: 7px 7px 0 0; }
+.member__item .designation{line-height: normal;}
+.member__item .message a.btn.btn-sm{padding:0 40px;}
+
+/** plans **/
+.plan__item__main{box-shadow: 0 0 8px rgb(0 0 0 / 20%); }
+.plan__top__details{padding:60px 30px;}
+.plan__item__main .price__txt{font-size: 24px;}
+.plan__description__item ul li{list-style: none; position: relative; font-size: 16px; color: #333; border-bottom: 1px solid #e0e0e0; padding-bottom: 10px; margin-bottom: 10px; }
+.plan__description__item ul li:last-child{border-bottom: none; padding-bottom: 0; margin-bottom: 0; }
+.plan__description__item {padding: 40px 40px 10px 40px; min-height: 326px;}
+.plan__description__item ul li::before{content: '\f00c'; font-family: FontAwesome; display: inline-block; padding-right: 15px; vertical-align: middle; }
+.plan-mg{margin-top:150px;}
+
+/** modal **/
+.modal-backdrop.show{opacity: 0.8;}
+#reviewModal .content__item{padding:60px 0;}
+.modal-cust{max-width: 80%;}
+.modal-cust .modal-content{box-shadow: none; border: none; background-color: transparent; }
+.cust__modal .modal-backdrop.show{background-color: rgba(255,255,255); opacity: 0.93;}
+
+/** active submission **/
+.badge-pill{padding: 10px 10px; display: flex; align-items: center; justify-content: center; }
+#datatable thead tr th{vertical-align: middle; display: table-cell; }
+#datatable tr td{vertical-align: middle; display: table-cell; }
+#datatable tr td{padding:20px 10px;}
+
+/** continue saved draft **/
+.draft-table .btn-outline{padding: 8px 30px !important; display: flex; align-items: center; justify-content: center; margin: 0 auto; border-color: #333 !important; border-width: 1px !important; }
+.draft-table .btn-outline:hover{border-color: #fff !important; background-color: #fff !important; color: #312f75 !important; box-shadow: 0 0 5px rgb(0 0 0 / 20%);}
+
+/** button popover **/
+.txt__popover{position: relative;}
+.txt__popover .txt{position: absolute; background: #f8f9fa; padding: 5px 15px; font-weight: 600; box-shadow: 0 0 5px rgb(0 0 0 / 30%); right: 50%; width: 300px; top: 80%; color: #9996a6; opacity: 0; visibility: hidden; transition: 0.7s ease-in-out; }
+.txt__popover .hover__btn:hover + .txt{opacity: 1; visibility: visible; }
+
+/** create Project **/
+.create__project_main form{display: flex; align-self: center;}
+.create__project_main form .form-group{margin:0;}
+.create__project_main .form-group.txt{flex:1; margin-right:30px;}
+input.search__sbt.form-control{color:#312f75; transition: 0.5s ease-in-out; background: transparent; border:1px solid #312f75; font-weight: 600; padding: 0; width: 85px; font-size: 18px; display: flex; align-items: center; justify-content: center;} 
+input.search__sbt.form-control:focus,.create__project_main .form-group.txt input:focus{outline: none; box-shadow: none; border:1px solid #312f75;}
+input.search__sbt.form-control:hover{background: #312f75; color: #fff; }
+.create__item .card{border-radius: 10px; margin: 30px;}
+.create__item .card .icn{min-height: 250px; background: #e2e2e2; border-radius: 10px 10px 0 0; }
+.create__item .card .card-text{font-size: 14px;}
+
+
+/** send meeting availability **/
+#sendMeetingModal .modal-cust .modal-content{background-color: #fff; padding:15px;}
+.send__meeting__main .send__meeting__top__inner{display: flex; align-items: center; min-height: 55px;}
+.send__meeting__main .close{opacity: 1; font-size: 18px;}
+.send__meeting__main .close:focus{outline:none;}
+#meeting__location__sel select:focus{box-shadow: none; outline:none; border:1px solid #312f75;}
+.time__btn input[type="radio"] {display: none; }
+.time__btn input[type="radio"] + label{border: 1px solid #312f75; padding: 5px 15px; color: #312f75; border-radius: 2px; font-size: 14px; }
+.time__btn input[type="radio"]:checked + label {background-color: #312f75; color: #fff; }
+.form-check.time__btn{padding-left:0;}
+.meeting__table{font-size: 12px;}
+.meeting__table tr th{font-weight: 600; color:#312f75;}
+#meeting__form label{font-weight: 600; margin-bottom: 8px; font-size: 12px; }
+#meeting__form label:hover{cursor: pointer;}
+#meeting__form input::placeholder{opacity: 0.7;}
+#meeting__form input:focus{outline:none; box-shadow: none; border:1px solid #312f75;}
+.mt_bg{background-color: #f7f7f7;}
+.meeting__table tr td{color: #a1a6ab; transition: 0.4s ease-in-out; }
+.meeting__table tr td:hover{cursor: pointer;}
+.meeting__table tr td.selected{background-color: #312f75; color: #fff; }
+.btn#continue__btn{font-size: 17px; font-weight: 400; letter-spacing: 2px; display: flex; width: 500px; height: 45px; align-items: center; justify-content: center; }
+
+/** meeting code **/
+.meeting__code__main .close{opacity: 1;}
+.meeting__code__main .close:focus{outline:none;}
+.meeting__code__num{font-size: 75px; line-height: 75px;}
+.code__desc p{font-size: 18px; color:#000;}
+#meetingcode .modal-body,#successmeeting .modal-body{padding: 15px 15px 40px 15px;}
+#successmeeting label{font-weight: 600; margin-bottom: 8px; font-size: 14px; }
+#successmeeting input{border:none; padding:0; opacity: 0.7; font-size: 14px;}
+.success__meeting__main .form-group{margin-bottom:2rem;}
+#successmeeting input:focus{outline:none; box-shadow: none; border:1px solid #312f75;}
+#copy__link__avail{background-color: transparent; color: #312f75; }
+#copy__link__avail:hover{background-color: #312f75; color: #fff; }
+#successmeeting .form-control:disabled, #successmeeting .form-control[readonly]{background-color: transparent; }
+.share__link{color:#312f75;}
+
+
+/** media queries **/
+@media(max-width:1199px){
+    .foot_menu li{padding:0 18px;}
+    h4.setting__title{font-size: 20px;}
+    .profile__settings__main .form-group label, .file__label{font-size: 13px;}
+
+    /** plan **/
+    .plan__description__item ul li{font-size: 14px;}
+    .plan__item__main .price__txt{font-size: 16px;}
+    .plan__description__item{padding:15px; min-height: auto;}
+    .modal-cust{max-width: 100%;}
+
+    /** send meeting availability **/
+    #sendMeetingModal .modal-cust{max-width: 96%;}
+    .send__meeting__main .send__meeting__top__inner h3{font-size: 20px;}
+    #sendMeetingModal .modal-body{padding:0;}
+}
+
+@media(max-width:991px){
+	/** profile settings **/
+    .setting__item__right{border-top:5px solid #eee; margin-top:20px; padding-top:20px;}
+    .setting__item__left{display:flex; justify-content: space-between;}
+    .setting__item{margin-bottom:0;}
+
+    /** plan page **/
+    .plan-mg{margin-top:0px;}
+    .pan__btn,.plan__item__main{margin-bottom:30px;}
+
+    /** create project **/
+    .create__item .card{margin:15px;}
+
+}
+
+@media(max-width:767px){
+    .foot_menu li{display: block;}
+    .foot_menu li:last-child{padding-right:18px;}
+    #footer .footer-content{padding:30px 0;}
+    .widget{margin-bottom:0;}
+    .copyright_text{text-align: center;}
+
+    /** profile settings **/
+    h1{font-size: 26px;}
+    h3{font-size: 20px;}
+    h4{font-size: 18px;}
+
+    /** team members **/
+    .member__item{margin-bottom:30px;}
+
+    /** plan modal **/
+    .cust__modal .modal-open .modal{padding-left:0 !important;}
+
+    /***** active submission  *****/
+    .sub__btn{margin-bottom:15px;}
+
+    /** create project **/
+    .create_project__btn{margin-top:30px;}
+    .create__item .card{margin:15px;}
+
+    /** send meeting availability **/
+    #sendMeetingModal{padding-left:0;}
+    #sendMeetingModal .modal-cust .modal-content{padding:10px;}
+    .send__meeting__main .send__meeting__top__inner{flex-direction: column; align-items: flex-start; min-height: 145px;}
+    .btn#continue__btn{width: 100%; font-size: 16px;}
+    #sendMeetingModal .modal-cust{max-width: 98%;}
+
+    /** meeting code **/
+    .meeting__code__num{font-size: 40px; line-height: 40px;}
+    .code__desc p{font-size: 14px;}
+
+}
+@media(max-width:575px){
+	/** profile settings **/
+	.profile__picture__item{flex-direction: column;}
+	.profile__picture__item .edit__profile__picture{margin-left:0; margin-top:20px; margin-bottom: 20px; align-self: flex-start;}
+	.setting__item__left{display: block;}
+	.setting__item{border-bottom:1px solid #eee; padding-bottom: 15px; margin-bottom: 25px;}
+    .setting__item:last-child{padding-bottom:0; margin-bottom:0; border-bottom:none;}
+    .profile__information .form-control.frm__fld{font-size: 12px;}
+    .frm__fld__edit__link{font-size: 11px; top:10px;}
+    /** account information **/
+    .account__information .form-group .frm__fld{font-size: 14px;}
+    
+    /** send meeting availability **/
+    .send__meeting__main .send__meeting__top__inner h3{font-size: 18px;}
+    .time__btn__main{flex-wrap: wrap;}
+}

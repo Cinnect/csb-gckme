@@ -1,0 +1,159 @@
+/***** quick deals *****/
+.fs16{font-size: 16px !important;}
+.fs17{font-size: 17px !important; line-height: 30px;}
+.fs15{font-size: 15px !important;}
+.deal__item .view__deal a{font-size: 16px; background: #312f75; color: #fff; padding: 8px 35px; border-radius: 3px; }
+.deal__item .view__deal a:hover,.deal__item .view__deal a:active{color: #fff !important; }
+.deal__item {border: 1px solid rgba(0,0,0,.125); border-radius: 15px; padding: 40px; }
+
+/***** quick deal popup *****/
+.popup_header{padding: 20px 40px; border-bottom: 1px solid #ddd; margin-bottom: 40px; }
+.blue__btn{background: #312f75; color: #fff !important; border: 1px solid #312f75; padding: 8px 35px; border-radius: 3px; }
+.blue__btn:hover,.blue__btn:active{color: #fff !important; }
+.blue__border__btn{background: transparent; border: 1px solid #312f75; color: #312f75; padding: 8px 35px; border-radius: 3px; transition: 0.5s ease-in-out; }
+.blue__border__btn:hover,.blue__border__btn:active{background: #312f75; border: 1px solid #312f75; color: #fff !important; padding: 8px 35px; border-radius: 3px; }
+.popup__item__inner .val .info{position: relative; top: -8px; font-size: 14px; color: #312f75; }
+
+/***** purchase deal popup *****/
+.light-black-txt{color: #333;}
+.purchase__deal__wizard .steps .number{display: none;}
+.purchase__deal__wizard.wizard>.steps ul li.current a, 
+.purchase__deal__wizard.wizard>.steps ul li.current a:hover, 
+.purchase__deal__wizard.wizard>.steps ul li.current a:active{background: transparent; color: #312f75; font-weight: 600; font-size: 16px; transition: 0.7s ease-in-out;}
+.purchase__deal__wizard.wizard>.steps ul li.current{border-bottom: 3px solid #312f75; }
+.purchase__deal__wizard.wizard>.steps ul li>a{background: transparent; color: #000; font-weight: 600; font-size: 16px; padding: 18px 35px; transition: 0.7s ease-in-out; }
+.purchase__deal__wizard.wizard>.steps ul{justify-content: center; }
+.purchase__deal__wizard.wizard>.steps ul li{margin-right: 0; border-bottom: 3px solid #cecece; transition: 0.7s ease-in-out; }
+#purchasingDeal .card-body{padding: 0 2rem; }
+#purchasingDeal .card{border: none; border-radius: 0; box-shadow: none; }
+#purchasingDeal .modal-dialog{max-width: 60%; }
+.purchase__deal__wizard .wizard-content{border: 1px solid #ddd; padding: 25px 40px; border-radius: 15px; }
+.purchase__deal__wizard .form-group label{color: #333; margin-bottom: 5px; font-weight: 600; font-size: 15px; display: block; margin-bottom: 10px; }
+.purchase__deal__wizard .form-group{margin-bottom: 40px; }
+.purchase__deal__wizard input::placeholder{opacity: 0.7; }
+.purchase__deal__wizard.wizard .actions{border-top: none; display: flex; align-items: center; justify-content: center; }
+.purchase__deal__wizard.wizard .actions ul{width: 80%;}
+.purchase__deal__wizard.wizard .actions ul li:first-child{display: none;}
+.purchase__deal__wizard.wizard .actions ul li{width: 100%;}
+.purchase__deal__wizard.wizard .actions ul li a{display: block;}
+.purchase__deal__wizard .wizard-content.payment{padding: 80px; }
+.purchase__deal__wizard .wizard-content.payment .form-check-label{padding-left: 50px; font-size: 20px; color: #333; font-weight: 600; }
+.purchase__deal__wizard .wizard-content.payment .form-check-label small{font-size: 13px; font-weight: 400; font-style: italic; display: block; margin-top: 5px; }
+.purchase__deal__wizard .wizard-content.payment .price{margin-left: 50px; font-size: 22px; font-weight: 700; color: #333;}
+.purchase__deal__wizard .wizard-content.payment .payment__item{border: 2px solid #ddd; padding: 20px; border-radius: 8px; width: 90%; margin: 0 auto; }
+.payment__item .form-check input{width: 20px; height: 20px; }
+.purchase__deal__wizard .wizard-content.payment .payment__item.rchecked{border: 2px solid #312f75; }
+.purchase__deal__wizard .summary__item {border-bottom: 1px solid #ddd; padding-bottom: 20px; margin-bottom: 35px; }
+.purchase__deal__wizard .summary__item:last-child{border-bottom: none; padding-bottom: 0; }
+
+/***** additional services *****/
+.fs22{font-size: 22px; line-height: 38px;}
+.fs20{font-size: 20px; line-height: 36px;}
+.fs18{font-size: 18px; line-height: 30px;}
+.additional__service.section__top{display: flex; align-items: center; justify-content: space-between; }
+.additional__service__item i{font-size: 50px;}
+.additional__service__item{border: 1px solid #ddd; padding: 20px; border-radius: 10px; height: 100%; }
+.additional__service__item .desc{min-height: 152px;}
+.additional__service__col{margin-bottom: 60px;}
+.service__detail__provider .service__detail__item{border: 1px solid #ddd; padding: 20px; border-radius: 10px; margin-bottom: 30px; }
+.service__detail__provider .service__detail__item .image{width: 200px; height: 200px; background: #ddd; border-radius: 50%; margin: 0 auto; }
+.service__detail__wework .we__work__item .image{height: 90px; width: 90px; background: #ddd; margin: 0 auto; border-radius: 50%; }
+
+/***** service provider *****/
+.green-txt{color: #05A000;}
+.dark-blue-txt{color: #00529C;}
+.service__provider__image{width: 200px; height: 200px; background: #ddd; }
+.service__provided ul{list-style: none;}
+.service__provided ul li{margin-bottom: 10px}
+.purchased__service__item{margin-bottom: 30px;}
+.purchased__service__detail{display: flex; align-items: center; justify-content: space-between;}
+.purchased__service__item .view__documents{display: flex; align-items: center;}
+.purchased__service__item{border: 1px solid #ddd; padding: 40px; border-radius: 15px; margin: 0 20px; }
+
+/** media queries **/
+@media(max-width:1650px){
+    /***** additional service ****/
+    .additional__service__item h2{font-size: 22px;}
+    .additional__service__item .desc{font-size: 18px !important;}
+    
+    /***** purchase popup *****/
+    .purchase__deal__wizard .wizard-content.payment{padding: 40px;}
+    .purchased__service__detail{font-size: 18px !important;}
+    .purchased__service__item .view__documents .blue__btn{padding: 8px 15px; font-size: 16px !important;}
+    .purchased__service__item{margin: 0 0 30px 0; padding: 20px;}
+}
+@media(max-width:1439px){
+    /***** purchase popup *****/
+    #purchasingDeal .modal-dialog{max-width: 80%;}
+}
+@media(max-width:1199px){
+    /***** purchase popup *****/
+    #purchasingDeal .modal-dialog{max-width: 90%;}
+
+    /***** additional service detail *****/
+    .service__detail__item h3{font-size: 22px;}
+    .purchased__service__item .view__documents{flex-direction: column;} 
+    .purchased__service__item .view__documents span{margin-top: 20px;}
+}
+
+@media(max-width:991px){
+    /** quick deals **/
+    .deal__right__item{margin-top: 50px;}
+    .deal__item{margin-bottom: 30px;}
+    .blue__btn {display: block; margin-bottom: 25px;}
+
+    /***** purchase popup *****/
+    #purchasingDeal .modal-dialog{max-width: 95%;}
+    .purchase__deal__wizard .wizard-content.payment .payment__item{width: 100%;}
+    .purchase__deal__wizard .wizard-content.payment{padding: 30px;}
+
+    /***** additional services *****/
+    .additional__service__item{margin-bottom: 30px;}
+
+    /***** additional service detail *****/
+    .service__detail__wework .we__work__item{margin-bottom: 30px; }
+    .service__detail__item__top .blue__btn{display: inline-block;}
+    .purchased__service__item{margin: 0 0 30px 0;}
+
+}
+@media(max-width:767px){
+    /** quick deals **/
+    .deal__right__item{margin-top: 50px;}
+    .deal__item{margin-bottom: 30px;}
+    .popup_header{padding: 15px; margin-bottom: 20px;}
+    .popup__item__inner {padding: 0 15px; }
+
+    /***** purchase popup *****/
+    #purchasingDeal .modal-dialog{max-width: 100%;}
+    #purchasingDeal .card-body{padding: 0 10px;}
+    #purchasingDeal .card .card-body .wizard{padding: 0}
+    .purchase__deal__wizard .wizard-content{padding: 15px;}
+    .purchase__deal__wizard .content{padding: 0}
+    .purchase__deal__wizard .wizard-content.payment{padding: 15px;}
+    .payment__item .form-check{display: block !important;}
+    .purchase__deal__wizard .wizard-content.payment .price{margin-top: 15px;}
+    .purchase__deal__wizard .summary__item{padding: 0 !important; font-size: 14px !important;}
+
+    /***** additional service detail *****/
+    .additional__service__item .desc{min-height: auto;}
+    .additional__service__detail__main {padding: 0 15px; }
+    .fs22{font-size: 20px;}
+    .service__detail__item h3{font-size: 22px;}
+
+    /***** service provider *****/
+    .service__provider__item__wraper{padding: 0 15px;}
+    .service__provider__image{margin-bottom: 30px;}
+    .purchased__service__detail{font-size: 16px !important;}
+    .purchased__service__top{padding: 0 15px;}
+    .purchased__service__item__main{padding: 0 15px}
+    .additional__service__item__main{padding: 0 15px;}
+
+}
+@media(max-width:575px){
+    /***** purchase popup *****/
+    .purchase__deal__wizard.wizard>.steps ul li>a{padding: 18px 0;}
+
+    /***** additional services *****/
+    .additional__service.section__top{flex-direction: column;}
+    
+}

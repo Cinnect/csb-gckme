@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Current Plan</title>
+    <link rel="stylesheet" href="https://cdn.cinnect.net/css/plugins.css">
+    <link rel="stylesheet" href="https://cdn.cinnect.net/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.form.io/formiojs/formio.full.min.css">
+    <link rel="stylesheet" href="https://cdn.cinnect.net/fonts/branding.css">   
+    <link rel="stylesheet" href="developer.css">   
+</head>
+<body class="cust__modal">
+
+	<section id="page-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+					<h1 class="section__title mb-5">Account Settings</h1>
+				</div>
+			</div>
+            <div class="profile__settings__main">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
+                        <div class="setting__item__left">
+                            <div class="setting__item">
+                                <h4 class="setting__title text-uppercase black-txt mb-2">User Profile</h4>
+                                <div class="setting__content">
+                                    <div class="setting__link">
+                                        <a href="#" title="Profile Information">Profile Information</a>    
+                                    </div>
+                                    <div class="setting__link">
+                                        <a href="#" title="Account Information">Account Information</a>    
+                                    </div>
+                                    <div class="setting__link">
+                                        <a href="#" title="Security">Security</a>    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="setting__item">
+                                <h4 class="setting__title text-uppercase black-txt mb-2">Company Settings</h4>
+                                <div class="setting__content">
+                                    <div class="setting__link">
+                                        <a href="#" title="Company Information">Company Information</a>
+                                    </div>
+                                    <div class="setting__link">    
+                                        <a href="#" title="Company Documents">Company Documents</a>
+                                    </div>
+                                    <div class="setting__link">    
+                                        <a href="#" class="active" title="Current Plan">Current Plan</a>
+                                    </div>
+                                    <div class="setting__link">    
+                                        <a href="#" title="Team Members">Team Members</a>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 ml-auto">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                <div class="setting__item__right account__information current__plan">
+                                    <h3 class="mb-4">Current Plan</h3>
+                                    <h5 class="inner__title mt-3 mb-4">Subscription Status</h5>
+                                    <form>
+                                        <div class="account__information__item mt-5">
+                                            <div class="form-row">
+                                                <div class="form-group col-md-12">
+                                                    <label for="current_plan">Current Plan</label>
+                                                    <div class="frm__fld__input">
+                                                        <input class="form-control frm__fld" name="current-plan" id="current_plan" type="text" value="PREMIUM">  
+                                                        <a href="#" id="change__plan" data-target="#planModal" data-toggle="modal" class="frm__fld__edit__link" title="Change The Plan">Change The Plan</a>  
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="form-group col-md-12">
+                                                    <label for="sub_end">Subscription Ends</label>
+                                                    <div class="frm__fld__input">
+                                                        <input class="form-control frm__fld" name="sub-end" id="sub_end" type="text" value="21/07/2022">    
+                                                        <a href="#" class="frm__fld__edit__link" title="Renew">Renew</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</div>	
+	</section>	
+
+    <div class="modal fade" id="planModal" role="modal" aria-labelledby="modal-label">
+        <div class="modal-dialog modal-cust modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i></button>
+                    <div class="container">
+                        <div class="plan__main">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="plan__item__main plan-mg">
+                                        <div class="plan__top__details plan-1 text-center text-white">
+                                            <h4 class="text-white mb-2">Standard Plan</h4>
+                                            <div class="description mb-3">For Individuals getting stored in selling & licensing content</div>
+                                            <div class="price__txt fw600">
+                                                Free*
+                                            </div>  
+                                        </div>
+                                        <div class="plan__description__item white-bg">
+                                            <ul>
+                                                <li>1 user account</li>
+                                                <li>list your first project for free</li>
+                                                <li>Respond to buyer open calls</li>
+                                                <li>Negotiate terms & conditions</li>
+                                                <li>sign license agreements</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pan__btn text-center mt-0 mt-md-4">
+                                        <a href="#" class="btn btn-sm" title="Switch To Standard">Switch To Standard</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                                    <h2 class="current__plan__title text-uppercase fw600 text-center mb-4">Current Plan</h2>
+                                    <div class="plan__item__main">
+                                        <div class="plan__top__details plan-2 text-center text-white">
+                                            <h4 class="text-white mb-2">Premium</h4>
+                                            <div class="description mb-3">For teams & companies that manage multiple projects</div>
+                                            <div class="price__txt fw600">
+                                                From $100/yr
+                                            </div>  
+                                        </div>
+                                        <div class="plan__description__item white-bg">
+                                            <ul>
+                                                <li>Everything in standard</li>
+                                                <li>3 user account</li>
+                                                <li>list your first project for free</li>
+                                                <li>Free secure delivery of assets</li>
+                                                <li>More feature to come</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                                    <div class="plan__item__main plan-mg">
+                                        <div class="plan__top__details plan-3 text-center text-white">
+                                            <h4 class="text-white mb-2">Enterprise</h4>
+                                            <div class="description mb-3">For organizations that require additional services</div>
+                                            <div class="price__txt fw600">
+                                                Contact for further info 
+                                            </div>  
+                                        </div>
+                                        <div class="plan__description__item white-bg">
+                                            <ul>
+                                                <li>Everything in premium</li>
+                                                <li>Unlimited user account</li>
+                                                <li>Unlimited project listings</li>
+                                                <li>Upload & sign contracts</li>
+                                                <li>Dedicated Account Manager</li>
+                                                <li>More feature to come</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="pan__btn text-center mt-4">
+                                        <a href="#" class="btn btn-sm" title="Contact Us">Contact Us</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<footer id="footer">
+		<div class="footer-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="widget">
+                            <p class="text-uppercase m-0 copyright_text">Copyright &copy; 2021 Cinnect</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="widget">
+                                    <ul class="list foot_menu text-center text-md-right">
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Cookies Policy</a></li>
+                                        <li><a href="#">Terms Of Service</a></li>
+                                        <li><a href="#">FAQs</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</footer>
+
+    <script src="https://cdn.cinnect.net/js/jquery.js"></script>
+    <script src="https://cdn.cinnect.net/js/plugins.js"></script>
+    <script src="https://cdn.cinnect.net/js/functions.js"></script>
+      
+</body>
+</html>

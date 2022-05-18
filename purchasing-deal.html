@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Purchasing deal popup</title>
+        <link href="https://cdn.cinnect.net/css/plugins.css" rel="stylesheet" />
+        <link href="https://dev.cinnect.io/template/plugins/jquery-steps/jquery.steps.css" rel="stylesheet" />
+        <link href="https://cdn.cinnect.net/css/style.css" rel="stylesheet" />
+        <link rel="stylesheet" href="developer.css">   
+        <link rel="stylesheet" href="developer-new.css"> 
+    </head>
+
+    <body>
+        <div class="body-inner">
+            <header id="header" data-fullwidth="true">
+                <div class="header-inner">
+                    <div class="container">
+                        <div id="logo">
+                            <a href="index.html">
+                                <span class="logo-default">
+                                    <img src="https://cdn.cinnect.net/images/logo.png" width="300"/>
+                                </span>
+                                <span class="logo-dark" >
+                                    <img src="https://cdn.cinnect.net/images/logo-dark.png" width="300" />
+                                </span>
+                            </a>
+                        </div>
+                        <div id="search">
+                            <a id="btn-search-close" class="btn-search-close" aria-label="Close search form">
+                                <i class="icon-x"></i>
+                            </a>
+                            <form class="search-form" action="search-results-page.html" method="get">
+                                <input  class="form-control" name="q" type="text" placeholder="Type & Search..."/>
+                                <span class="text-muted">Start typing & press "Enter" or "ESC" to close</span>
+                            </form>
+                        </div>
+                        <div class="header-extras">
+                            <ul>
+                                <li>
+                                <a id="btn-search" href="#"> <i class="icon-search"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="mainMenu-trigger">
+                            <a class="lines-button x"><span class="lines"></span></a>
+                        </div>
+                    
+                        <div id="mainMenu">
+                            <div class="container">
+                                <nav>
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li class="dropdown"><a href="#">Buyers</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            
+            <section id="page-content">
+                <div class="container-fluid px-0 px-md-5 py-5">
+                    <div class="row mb-5 px-3">
+                        <div class="col-12">
+                            <a href="" class="btn">Back to Project Page</a>
+                        </div>
+                    </div>
+                    <div class="row px-3">
+                        <div class="col-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                            <a href="#" data-target="#purchasingDeal" data-toggle="modal" class="fs16 blue__btn white-txt text-uppercase" title="View Document">Purchasing Deal</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>   
+
+            <footer id="footer">
+                <div class="footer-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="widget">
+                                    <div class="widget-title">Cinnect</div>
+                                    <p class="mb-5">
+                                        Built with love in London<br />
+                                        All rights reserved. Copyright © 2020. Cinnect
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="widget">
+                                            <div class="widget-title">Discover</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="widget">
+                                          <div class="widget-title">Features</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="widget">
+                                          <div class="widget-title">Pages</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="widget">
+                                          <div class="widget-title">Support</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright-content">
+                    <div class="container">
+                        <div class="copyright-text text-center">
+                          &copy; 2020 Cinnect Limited. All Rights Reserved.
+                          <a href="https://cinnect.net/" target="_blank" rel="noopener"></a>
+                        </div>
+                    </div>
+                </div>
+          </footer>
+        </div>
+        <a id="scrollTop">
+            <i class="icon-chevron-up"></i>
+            <i class="icon-chevron-up"></i>
+        </a>
+
+        <div class="modal fade" id="purchasingDeal" role="modal" aria-labelledby="modal-label">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body p-0">
+                        <div class="popup_header">
+                            <h3 class="fw600 blue-txt mb-1">Quick Deal</h3>
+                            <div class="semi__title">'Hexing, Picture Perfect, 140 min, drama, horror, 2019</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <div class="popup__purchasing__deal">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <form id="wizard1" class="wizard purchase__deal__wizard profile__information">
+                                                <h3>Your Details</h3>
+                                                <div class="wizard-content">
+                                                    <div class="h3 blue-txt fw600 mb-4">Your Details</div>
+                                                    <div class="form-row">
+                                                        <div class="form-group col-md-6">
+                                                            <label for="first_name">First Name</label>
+                                                            <div class="frm__fld__input">
+                                                                <input class="form-control frm__fld common-form" name="first-name" id="first_name" type="text" value="John">    
+                                                                <a href="javascript:void(0);" class="frm__fld__edit__link field__inline__edit" title="Edit">Edit</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                            <label for="last_name">Last Name</label>
+                                                            <div class="frm__fld__input">
+                                                                <input class="form-control frm__fld common-form" name="last-name" id="last_name" type="text" value="Doe">
+                                                                <a href="javascript:void(0);" class="frm__fld__edit__link field__inline__edit" title="Edit">Edit</a>
+                                                            </div>    
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-row">
+                                                        <div class="form-group col-md-12">
+                                                            <label for="email">E-mail</label>
+                                                            <div class="frm__fld__input">
+                                                                <input class="form-control frm__fld common-form" name="email" id="email" type="email" value="John@gmail.com">    
+                                                                <a href="javascript:void(0);" class="frm__fld__edit__link field__inline__edit" title="Edit">Edit</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-row">
+                                                        <div class="form-group col-md-12">
+                                                            <label for="company_name">Company Name</label>
+                                                            <div class="frm__fld__input">
+                                                                <input class="form-control frm__fld common-form" name="company-name" id="company_name" type="text" value="Company Name">    
+                                                                <a href="javascript:void(0);" class="frm__fld__edit__link field__inline__edit" title="Edit">Edit</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-row">
+                                                        <div class="form-group col-md-12">
+                                                            <label for="company_address">Company Address</label>
+                                                            <div class="frm__fld__input">
+                                                                <input class="form-control frm__fld" name="company-address" id="company_address" type="text" placeholder="Enter your address"> 
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-row">
+                                                        <div class="form-group col-md-6">
+                                                            <label for="post_code">Postcode</label>
+                                                            <div class="frm__fld__input">
+                                                                <input class="form-control frm__fld" name="post-code" id="post_code" type="text" placeholder="Enter your postcode">    
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                            <label for="city">City</label>
+                                                            <div class="frm__fld__input">
+                                                                <input class="form-control frm__fld" name="city" id="city" type="text" placeholder="Enter your city">
+                                                            </div>    
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-row">
+                                                        <div class="form-group col-md-6">
+                                                            <label for="state">State</label>
+                                                            <div class="frm__fld__input">
+                                                                <input class="form-control frm__fld" name="state" id="state" type="text" placeholder="Enter your state">
+                                                            </div>    
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                            <label for="country">Country</label>
+                                                            <div class="frm__fld__input">
+                                                                <input class="form-control frm__fld" name="country" id="country" type="text" placeholder="Enter your country">
+                                                            </div>    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--end: Step 1-->
+                                                <!--Step 2-->
+                                                <h3>Payment Options</h3>
+                                                <div class="wizard-content payment">
+                                                    <div class="payment__item mb-4">
+                                                        <div class="form-check d-flex align-items-center justify-content-between">
+                                                            <input class="form-check-input" name="payMonthly" id="pay-monthly" value="option1" type="radio">
+                                                            <label class="form-check-label" for="pay-monthly">
+                                                                Pay Monthly
+                                                                <small class="d-block">Quick Deal fixed fee + 1% Cinnect Service Fee</small>
+                                                            </label>
+                                                            <div class="price">
+                                                                £200/mo
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="payment__item">
+                                                        <div class="form-check d-flex align-items-center justify-content-between">
+                                                            <input class="form-check-input" name="payMonthly" id="pay-full" value="option2" type="radio">
+                                                            <label class="form-check-label" for="pay-full">
+                                                                Pay In Full
+                                                                <small class="d-block">Quick Deal fixed fee + 1% Cinnect Service Fee</small>
+                                                            </label>
+                                                            <div class="price">
+                                                                £10,100/mo
+                                                            </div>
+                                                        </div>
+                                                    </div>  
+                                                </div>
+                                                <!--end: Step 2-->
+                                                <!--Step 3-->
+                                                <h3>Summary</h3>
+                                                <div class="wizard-content">
+                                                    <div class="h3 blue-txt fw600 mb-4">Details</div>  
+                                                    <div class="summary__item px-4 fs16">
+                                                        <div class="row mb-4">
+                                                            <div class="col-6 col-md-8">
+                                                                <div class="txt">Licence Cost : </div>
+                                                            </div>        
+                                                            <div class="col-6 col-md-4">
+                                                                <div class="val fw600 text-uppercase">£10,000</div>
+                                                            </div>
+                                                        </div>  
+                                                        <div class="row mb-4">  
+                                                            <div class="col-6 col-md-8">
+                                                                <div class="txt">Licence Length : </div>
+                                                            </div>    
+                                                            <div class="col-6 col-md-4">
+                                                                <div class="val fw600 text-uppercase">3 Years</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-4">  
+                                                            <div class="col-6 col-md-8">
+                                                                <div class="txt">Rights : </div>
+                                                            </div>    
+                                                            <div class="col-6 col-md-4">
+                                                                <div class="val fw600 text-uppercase">
+                                                                    Exclusive 
+                                                                    <a href="#" class="info" data-toggle="tooltip" title="Lorem Ipsum is simply dummy text of the printing and typesetting industry. " data-placement="right"><i class="fa fa-info-circle ml-2" aria-hidden="true"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-4">  
+                                                            <div class="col-6 col-md-8">
+                                                                <div class="txt">Licence Rights : </div>
+                                                            </div>    
+                                                            <div class="col-6 col-md-4">
+                                                                <div class="val fw600 text-uppercase">
+                                                                    Video On Demand
+                                                                    <a href="#" class="info" data-toggle="tooltip" title="Lorem Ipsum is simply dummy text of the printing and typesetting industry. " data-placement="right"><i class="fa fa-info-circle ml-2" aria-hidden="true"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-4">  
+                                                            <div class="col-6 col-md-8">
+                                                                <div class="txt">Territory : </div>
+                                                            </div>    
+                                                            <div class="col-6 col-md-4">
+                                                                <div class="val fw600 text-uppercase">Worldwide</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-4">  
+                                                            <div class="col-6 col-md-8">
+                                                                <div class="txt">Content Type : </div>
+                                                            </div>    
+                                                            <div class="col-6 col-md-4">
+                                                                <div class="val fw600 text-uppercase">Feature Length Film</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-4">  
+                                                            <div class="col-6 col-md-8">
+                                                                <div class="txt">File Type : </div>
+                                                            </div>    
+                                                            <div class="col-6 col-md-4">
+                                                                <div class="val fw600 text-uppercase">
+                                                                    <select class="form-control" id="exampleFormControlSelect1">
+                                                                        <option>4k</option>
+                                                                        <option>4k</option>
+                                                                        <option>4k</option>
+                                                                        <option>4k</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div> 
+                                                    </div>
+
+                                                    <div class="h3 blue-txt fw600 mb-4">Payment</div>  
+                                                    <div class="summary__item px-4 fs16">
+                                                        <div class="row mb-4">  
+                                                            <div class="col-6 col-md-8">
+                                                                <div class="txt">Billing Options : </div>
+                                                            </div>    
+                                                            <div class="col-6 col-md-4">
+                                                                <div class="val fw600 text-uppercase">
+                                                                    <select class="form-control" id="exampleFormControlSelect1">
+                                                                        <option>Pay in Full</option>
+                                                                        <option>Pay in Full</option>
+                                                                        <option>Pay in Full</option>
+                                                                        <option>Pay in Full</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div> 
+                                                        <div class="row mb-4">
+                                                            <div class="col-6 col-md-8">
+                                                                <div class="txt">Sub total : </div>
+                                                            </div>        
+                                                            <div class="col-6 col-md-4">
+                                                                <div class="val fw600 text-uppercase">£10,000</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+
+                                                    <div class="summary__item px-4 fs16">
+                                                        <div class="row mb-4">  
+                                                            <div class="col-6 col-md-8">
+                                                                <div class="h3 blue-txt fw600 mb-1">Due Today</div> 
+                                                                <small>1% Surcharge For Rights of Use Cinnect Services</small>
+                                                            </div>    
+                                                            <div class="col-6 col-md-4">
+                                                                <div class="val fw600 text-uppercase">
+                                                                    <span class="h3 blue-txt fw600">£10,100</span>
+                                                                </div>
+                                                            </div>
+                                                        </div> 
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <div class="text-center light-black-txt fw500 mt-4 fs17">
+                                                                    By Clicking the below button your agree you accept <br> our <a href="#" class="blue-txt">Terms & Conditions</a>   
+                                                                </div>
+                                                            </div>    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--end: Step 3-->
+                                            </form>
+                                            <!--end: Wizard 1-->
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>          
+                    </div>
+                </div>
+            </div>    
+        </div> 
+    
+        <script src="https://cdn.cinnect.net/js/jquery.js"></script>
+        <script src="https://cdn.cinnect.net/js/plugins.js"></script>
+        <script src="https://cdn.cinnect.net/js/functions.js"></script>
+        <script src="https://dev.cinnect.io/template/plugins/validate/validate.min.js"></script>
+        <script src="https://dev.cinnect.io/template/plugins/jquery-steps/jquery.steps.min.js"></script>
+        <script>
+        $('#wizard1').steps({
+            headerTag: 'h3',
+            bodyTag: '.wizard-content',
+            autoFocus: true,
+            enableAllSteps: true,
+            labels: {
+                next: "Continue",   
+                finish: "Check Out",
+            },
+            titleTemplate: '<span class="number">#index#</span><span class="title">#title#</span>',
+            onFinished: function (event, currentIndex) {
+                INSPIRO.elements.notification("Submited",
+                    "Thank you, your account has been registed successfully", "success");
+            }
+        });
+        
+        $('.wizard').find(".actions ul > li > a").addClass("btn");
+
+        jQuery(document).ready(function() {
+            
+            jQuery("input.common-form").prop('disabled', true);
+                
+
+            jQuery(".field__inline__edit").on('click', function(){
+                jQuery(this).hide();
+                jQuery(this).prev().prop('disabled', false).focus();
+            });
+
+            jQuery('.payment__item').click(function() {
+                jQuery('.payment__item').removeClass('rchecked');
+                if(jQuery('.form-check-input').is(':checked')) 
+                { 
+                    jQuery(this).addClass('rchecked');
+                } else {
+                    jQuery(this).removeClass('rchecked');
+                }
+            });
+        });
+    </script>
+    </body>
+</html>

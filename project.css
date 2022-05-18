@@ -1,0 +1,38 @@
+.project-headrow .project-trailer {
+  width: 300px;
+}
+
+.project-headrow {
+  height: 700px;
+}
+
+.open-imagegallery {
+  max-height: 1200px;
+}
+
+.accordion .ac-item .ac-title {
+  font-size: 1.5rem;
+}
+
+.project-card-img {
+  max-height: 250px;
+}
+
+.project-ratings p {
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: black;
+}
+.project-ratings span {
+  color: #312f75 !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .project-headrow {
+    height: auto;
+  }
+
+  .project-headrow img {
+    max-height: 300px;
+  }
+}

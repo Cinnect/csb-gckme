@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Document title -->
+    <title>Meeting Code Popup</title>
+    <!-- Stylesheets & Fonts -->
+    <link href="https://cdn.cinnect.net/css/plugins.css" rel="stylesheet" />
+    <link href="https://cdn.cinnect.net/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.cinnect.net/fonts/branding.css">
+    <link rel="stylesheet" href="developer.css">  
+  </head>
+
+  <body>
+    <div class="body-inner">
+        <header id="header" data-fullwidth="true">
+            <div class="header-inner">
+                <div class="container">
+                    <div id="logo">
+                        <a href="index.html">
+                            <span class="logo-default">
+                                <img src="https://cdn.cinnect.net/images/logo.png" width="300"/>
+                            </span>
+                            <span class="logo-dark">
+                                <img src="https://cdn.cinnect.net/images/logo-dark.png" width="300"/>
+                            </span>
+                        </a>
+                    </div>
+                    <div id="search">
+                        <a id="btn-search-close" class="btn-search-close" aria-label="Close search form">
+                            <i class="icon-x"></i>
+                        </a>
+                        <form class="search-form" action="search-results-page.html" method="get">
+                            <input class="form-control" name="q" type="text" placeholder="Type & Search..."/>
+                            <span class="text-muted">Start typing & press "Enter" or "ESC" to close</span>
+                        </form>
+                    </div>
+                    <div class="header-extras">
+                        <ul>
+                            <li>
+                                <a id="btn-search" href="#"> <i class="icon-search"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="mainMenu-trigger">
+                        <a class="lines-button x"><span class="lines"></span></a>
+                    </div>
+                    <div id="mainMenu">
+                        <div class="container">
+                            <nav>
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li class="dropdown"><a href="#">Buyers</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+    	<section id="page-content">
+    		<div class="container">
+    			<div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <a class="btn" data-target="#meetingcode" data-toggle="modal" href="#">Meeting Code</a>
+                    </div>
+                </div>
+    		</div>	
+    	</section>	
+
+        <div class="modal fade" id="meetingcode" role="modal" aria-labelledby="modal-label">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="meeting__code__main">
+                                <div class="row mb-4">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center justify-content-end">
+                                        <button type="button" class="close blue-txt fw600" data-dismiss="modal"><i class="icon-x"></i></button>
+                                    </div>  
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <div class="meeting__code__item text-center">
+                                            <h3 class="black-txt fw600">This is your meeting code</h3>   
+                                            <div class="meeting__code__num blue-txt my-5">C5SMZMX</div> 
+                                            <div class="code__desc">
+                                                <p>It is essential you <strong>keep this code safe.</strong></p>
+                                                <p>You will be unable to access your meeting without it.</p>
+                                            </div>
+                                            <div class="continue__btn__main d-flex align-items-center justify-content-center mt-5">
+                                                <button type="button" class="btn" id="continue__btn">Continue</button>    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    	<footer id="footer">
+            <div class="footer-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="widget">
+                                <div class="widget-title">Cinnect</div>
+                                <p class="mb-5">
+                                    Built with love in London<br />
+                                    All rights reserved. Copyright © 2020. Cinnect
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="widget">
+                                        <div class="widget-title">Discover</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="widget">
+                                        <div class="widget-title">Features</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="widget">
+                                        <div class="widget-title">Pages</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="widget">
+                                        <div class="widget-title">Support</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-content">
+                <div class="container">
+                    <div class="copyright-text text-center">
+                      &copy; 2020 Cinnect Limited. All Rights Reserved.<a href="https://cinnect.net/" target="_blank" rel="noopener"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>    
+
+    <script src="https://cdn.cinnect.net/js/jquery.js"></script>
+    <script src="https://cdn.cinnect.net/js/plugins.js"></script>
+    <script src="https://cdn.cinnect.net/js/functions.js"></script>
+    <script>
+
+        $(document).ready(function(){
+            $('#meeting__location__sel').hide();    
+            $('.meeting__table tr td').click(function(){
+                if($(this).hasClass('selected')){
+                    $(this).removeClass('selected');
+                }else{
+                    $(this).addClass('selected');    
+                }
+                
+            });
+        });
+
+        function valueChanged()
+        {
+            if($('#meeting__check').is(":checked"))   
+                $("#meeting__location__sel").show();
+            else
+                $("#meeting__location__sel").hide();
+        }
+
+    </script>
+      
+</body>
+</html>

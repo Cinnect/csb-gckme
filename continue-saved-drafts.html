@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Document title -->
+    <title>Continue Saved Drafts</title>
+    <!-- Stylesheets & Fonts -->
+    <link href="https://cdn.cinnect.net/css/plugins.css" rel="stylesheet" />
+    <link href="https://cdn.cinnect.net/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="developer.css">  
+  </head>
+
+  <body>
+    <div class="body-inner">
+        <header id="header" data-fullwidth="true">
+            <div class="header-inner">
+                <div class="container">
+                    <div id="logo">
+                        <a href="index.html">
+                            <span class="logo-default">
+                                <img src="https://cdn.cinnect.net/images/logo.png" width="300"/>
+                            </span>
+                            <span class="logo-dark">
+                                <img src="https://cdn.cinnect.net/images/logo-dark.png" width="300"/>
+                            </span>
+                        </a>
+                    </div>
+                    <div id="search">
+                        <a id="btn-search-close" class="btn-search-close" aria-label="Close search form">
+                            <i class="icon-x"></i>
+                        </a>
+                        <form class="search-form" action="search-results-page.html" method="get">
+                            <input class="form-control" name="q" type="text" placeholder="Type & Search..."/>
+                            <span class="text-muted">Start typing & press "Enter" or "ESC" to close</span>
+                        </form>
+                    </div>
+                    <div class="header-extras">
+                        <ul>
+                            <li>
+                                <a id="btn-search" href="#"> <i class="icon-search"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="mainMenu-trigger">
+                        <a class="lines-button x"><span class="lines"></span></a>
+                    </div>
+                    <div id="mainMenu">
+                        <div class="container">
+                            <nav>
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li class="dropdown"><a href="#">Buyers</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="page-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <h1 class="section__title blue-txt mb-5">Manage Projects</h1>
+                    </div>
+                </div>
+                <div class="profile__settings__main">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
+                            <div class="setting__item__left">
+                                <div class="setting__item">
+                                    <h4 class="setting__title text-uppercase black-txt mb-2">Your Options</h4>
+                                    <div class="setting__content">
+                                        <div class="setting__link">
+                                            <a href="#"  title="Active Submission">Active Submission</a>    
+                                        </div>
+                                        <div class="setting__link">
+                                            <a href="#" class="active" title="Continue Save Drafts">Continue Save Drafts</a>    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9 ml-auto">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                    <div class="setting__item__right account__information current__plan">
+                                        <div class="row mb-4">
+                                            <div class="col-sm-12 col-md-5 col-lg-4">
+                                                <h4 class="blue-txt sub__btn">Continue Saved Drafts</h4>
+                                            </div>
+                                            <div class="col-sm-12 col-md-7 col-lg-8">
+                                                <button type="button" class="btn btn-light float-left"><i class="icon-plus"></i> Submit New Project</button>
+                                                <div class="p-dropdown ml-3 float-left">
+                                                    <a class="title btn btn-light"><i class="icon-sliders"></i> Options</a>
+                                                    <div class="p-dropdown-content">
+                                                        <ul>
+                                                            <li><a href="#"><i class="icon-refresh-cw"></i>Update Records</a></li>
+                                                            <li><a href="#"><i class="icon-edit"></i>Edit</a></li>
+                                                            <li><a href="#"><i class="icon-x"></i>Delete</a></li>
+                                                            <li>
+                                                                <hr>
+                                                            </li>
+                                                            <li><a href="#"><i class="icon-life-buoy"></i>Documentation</a></li>
+                                                            <li><a href="#"><i class="icon-mail"></i>Email Support Team</a></li>
+                                                            <li><a href="#"><i class="icon-alert-triangle"></i>Report an issue</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-4">
+                                            <div class="col-sm-12 col-md-8 col-lg-8 col-xl-6">
+                                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                                'Morris Bloom' has been Successful submitted
+                                                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="table-responsive">
+                                                    <table id="datatable" class="table table-bordered table-hover draft-table" style="width:100%">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Poster</th>
+                                                                <th>Name</th>
+                                                                <th>Date Started</th>
+                                                                <th>Assigned Team Member</th>
+                                                                <th>Status</th>
+                                                                <th>Remove</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td></td>
+                                                                <td>Swagville</td>
+                                                                <td>2020/07/25</td>
+                                                                <td>John Doe</td>
+                                                                <td class="text-center"><button type="button" class="btn btn-outline btn-rounded">Submit</button></td>
+                                                                <td class="text-center">
+                                                                    <a class="ml-2" href="#" data-toggle="tooltip" data-original-title="Delete"><i class="icon-trash-2"></i></a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td></td>
+                                                                <td>Swagville</td>
+                                                                <td>2020/07/25</td>
+                                                                <td>John Doe</td>
+                                                                <td class="text-center"><button type="button" class="btn btn-outline btn-rounded">Submit</button></td>
+                                                                <td class="text-center">
+                                                                    <a class="ml-2" href="#" data-toggle="tooltip" data-original-title="Delete"><i class="icon-trash-2"></i></a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td></td>
+                                                                <td>Swagville</td>
+                                                                <td>2020/07/25</td>
+                                                                <td>John Doe</td>
+                                                                <td class="text-center"><button type="button" class="btn btn-outline btn-rounded">Submit</button></td>
+                                                                <td class="text-center">
+                                                                    <a class="ml-2" href="#" data-toggle="tooltip" data-original-title="Delete"><i class="icon-trash-2"></i></a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td></td>
+                                                                <td>Swagville</td>
+                                                                <td>2020/07/25</td>
+                                                                <td>John Doe</td>
+                                                                <td class="text-center"><button type="button" class="btn btn-outline btn-rounded">Submit</button></td>
+                                                                <td class="text-center">
+                                                                    <a class="ml-2" href="#" data-toggle="tooltip" data-original-title="Delete"><i class="icon-trash-2"></i></a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td></td>
+                                                                <td>Swagville</td>
+                                                                <td>2020/07/25</td>
+                                                                <td>John Doe</td>
+                                                                <td class="text-center"><button type="button" class="btn btn-outline btn-rounded">Submit</button></td>
+                                                                <td class="text-center">
+                                                                    <a class="ml-2" href="#" data-toggle="tooltip" data-original-title="Delete"><i class="icon-trash-2"></i></a>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>    
+
+        <footer id="footer">
+            <div class="footer-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="widget">
+                                <div class="widget-title">Cinnect</div>
+                                <p class="mb-5">
+                                    Built with love in London<br />
+                                    All rights reserved. Copyright © 2020. Cinnect
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="widget">
+                                        <div class="widget-title">Discover</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="widget">
+                                        <div class="widget-title">Features</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="widget">
+                                        <div class="widget-title">Pages</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="widget">
+                                        <div class="widget-title">Support</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-content">
+                <div class="container">
+                    <div class="copyright-text text-center">
+                      &copy; 2020 Cinnect Limited. All Rights Reserved.<a href="https://cinnect.net/" target="_blank" rel="noopener"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+      <!-- end: Footer -->
+    </div>
+    <!-- end: Body Inner -->
+    <!-- Scroll top -->
+    <a id="scrollTop"
+      ><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i
+    ></a>
+    <!--Plugins-->
+    <script src="https://cdn.cinnect.net/js/jquery.js"></script>
+    <script src="https://cdn.cinnect.net/js/plugins.js"></script>
+    <!--Template functions-->
+    <script src="https://cdn.cinnect.net/js/functions.js"></script>
+  </body>
+</html>

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Document title -->
+    <title>Success Meeting Popup</title>
+    <!-- Stylesheets & Fonts -->
+    <link href="https://cdn.cinnect.net/css/plugins.css" rel="stylesheet" />
+    <link href="https://cdn.cinnect.net/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.cinnect.net/fonts/branding.css" />
+    <link rel="stylesheet" href="developer.css" />
+  </head>
+
+  <body>
+    <div class="body-inner">
+      <header id="header" data-fullwidth="true">
+        <div class="header-inner">
+          <div class="container">
+            <div id="logo">
+              <a href="index.html">
+                <span class="logo-default">
+                  <img
+                    src="https://cdn.cinnect.net/images/logo.png"
+                    width="300"
+                  />
+                </span>
+                <span class="logo-dark">
+                  <img
+                    src="https://cdn.cinnect.net/images/logo-dark.png"
+                    width="300"
+                  />
+                </span>
+              </a>
+            </div>
+            <div id="search">
+              <a
+                id="btn-search-close"
+                class="btn-search-close"
+                aria-label="Close search form"
+              >
+                <i class="icon-x"></i>
+              </a>
+              <form
+                class="search-form"
+                action="search-results-page.html"
+                method="get"
+              >
+                <input
+                  class="form-control"
+                  name="q"
+                  type="text"
+                  placeholder="Type & Search..."
+                />
+                <span class="text-muted"
+                  >Start typing & press "Enter" or "ESC" to close</span
+                >
+              </form>
+            </div>
+            <div class="header-extras">
+              <ul>
+                <li>
+                  <a id="btn-search" href="#"> <i class="icon-search"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div id="mainMenu-trigger">
+              <a class="lines-button x"><span class="lines"></span></a>
+            </div>
+            <div id="mainMenu">
+              <div class="container">
+                <nav>
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown"><a href="#">Buyers</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section id="page-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <a
+                class="btn"
+                data-target="#successmeeting"
+                data-toggle="modal"
+                href="#"
+                >Success Meeting</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div
+        class="modal fade"
+        id="successmeeting"
+        role="modal"
+        aria-labelledby="modal-label"
+      >
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="success__meeting__main">
+                  <div class="row mb-2">
+                    <div
+                      class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex align-items-center justify-content-end"
+                    >
+                      <button
+                        type="button"
+                        class="close blue-txt fw600"
+                        data-dismiss="modal"
+                      >
+                        <i class="icon-x"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                      <div class="success__meeting__item">
+                        <h2 class="black-txt fw600 mb-5">
+                          Success! Meeting Availability Sent!
+                        </h2>
+                        <form>
+                          <div class="row">
+                            <div
+                              class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"
+                            >
+                              <div class="form-group">
+                                <label for="to-share">To Sahre</label>
+                                <input
+                                  type="text"
+                                  class="form-control share__link"
+                                  id="to-share"
+                                  value="https://whenisgood.net/#/4w7ie"
+                                  disabled
+                                />
+                              </div>
+                            </div>
+                            <div
+                              class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-center"
+                            >
+                              <div class="form-check mb-3">
+                                <input
+                                  type="checkbox"
+                                  class="form-check-input"
+                                  id="meeting__notti__check"
+                                  checked
+                                  disabled
+                                />
+                                <label
+                                  class="form-check-label"
+                                  for="meeting__notti__check"
+                                  >Send Me Notifications Of Response</label
+                                >
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div
+                              class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"
+                            >
+                              <div class="form-group">
+                                <label for="meet-title">Meeting Title</label>
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  id="meet-title"
+                                  value="Morris Bloom Meeting"
+                                  disabled
+                                />
+                              </div>
+                            </div>
+                            <div
+                              class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"
+                            >
+                              <div class="form-group">
+                                <label for="your-name">Your Name</label>
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  id="your-name"
+                                  value="Jon Doe Productions"
+                                  disabled
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div
+                              class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                            >
+                              <div class="form-group">
+                                <label for="meet-title"
+                                  >Points of Discussion</label
+                                >
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  id="meet-title"
+                                  value="Casting Choices, directors cut, subtitles"
+                                  disabled
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div
+                              class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                            >
+                              <div class="form-group">
+                                <label for="edit-avail"
+                                  >To Edit Your Availability</label
+                                >
+                                <input
+                                  type="text"
+                                  class="form-control share__link"
+                                  id="edit-avail"
+                                  value="https://whenisgood.net/#/4w7ie_1"
+                                  disabled
+                                />
+                                <button
+                                  type="button"
+                                  class="btn mt-3"
+                                  id="copy__link__avail"
+                                  onclick="copyToClipboard('#edit-avail')"
+                                >
+                                  Copy Link
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div
+                              class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"
+                            >
+                              <div
+                                class="continue__btn__main d-flex align-items-center justify-content-center mt-5"
+                              >
+                                <button
+                                  type="button"
+                                  class="btn"
+                                  id="continue__btn"
+                                >
+                                  Close
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer id="footer">
+        <div class="footer-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-5">
+                <div class="widget">
+                  <div class="widget-title">Cinnect</div>
+                  <p class="mb-5">
+                    Built with love in London<br />
+                    All rights reserved. Copyright © 2020. Cinnect
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <div class="row">
+                  <div class="col-lg-3">
+                    <div class="widget">
+                      <div class="widget-title">Discover</div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="widget">
+                      <div class="widget-title">Features</div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="widget">
+                      <div class="widget-title">Pages</div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="widget">
+                      <div class="widget-title">Support</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright-content">
+          <div class="container">
+            <div class="copyright-text text-center">
+              &copy; 2020 Cinnect Limited. All Rights Reserved.<a
+                href="https://cinnect.net/"
+                target="_blank"
+                rel="noopener"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.cinnect.net/js/jquery.js"></script>
+    <script src="https://cdn.cinnect.net/js/plugins.js"></script>
+    <script src="https://cdn.cinnect.net/js/functions.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#meeting__location__sel").hide();
+        $(".meeting__table tr td").click(function () {
+          if ($(this).hasClass("selected")) {
+            $(this).removeClass("selected");
+          } else {
+            $(this).addClass("selected");
+          }
+        });
+      });
+
+      function valueChanged() {
+        if ($("#meeting__check").is(":checked"))
+          $("#meeting__location__sel").show();
+        else $("#meeting__location__sel").hide();
+      }
+
+      function copyToClipboard(element) {
+        var $temp = $("<input>");
+        $("body").append($temp);
+        $temp.val($(element).val()).select();
+        document.execCommand("copy");
+        $temp.remove();
+      }
+    </script>
+  </body>
+</html>

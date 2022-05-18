@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Company Information</title>
+    <link rel="stylesheet" href="https://cdn.cinnect.net/css/plugins.css">
+    <link rel="stylesheet" href="https://cdn.cinnect.net/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.form.io/formiojs/formio.full.min.css">
+    <link rel="stylesheet" href="https://cdn.cinnect.net/fonts/branding.css">   
+    <link rel="stylesheet" href="developer.css">   
+</head>
+<body>
+
+	<section id="page-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+					<h1 class="section__title mb-5">Account Settings</h1>
+				</div>
+			</div>
+            <div class="profile__settings__main">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
+                        <div class="setting__item__left">
+                            <div class="setting__item">
+                                <h4 class="setting__title text-uppercase black-txt mb-2">User Profile</h4>
+                                <div class="setting__content">
+                                    <div class="setting__link">
+                                        <a href="#" title="Profile Information">Profile Information</a>    
+                                    </div>
+                                    <div class="setting__link">
+                                        <a href="#" title="Account Information">Account Information</a>    
+                                    </div>
+                                    <div class="setting__link">
+                                        <a href="#" title="Security">Security</a>    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="setting__item">
+                                <h4 class="setting__title text-uppercase black-txt mb-2">Company Settings</h4>
+                                <div class="setting__content">
+                                    <div class="setting__link">
+                                        <a href="#" class="active" title="Company Information">Company Information</a>
+                                    </div>
+                                    <div class="setting__link">    
+                                        <a href="#" title="Company Documents">Company Documents</a>
+                                    </div>
+                                    <div class="setting__link">    
+                                        <a href="#" title="Current Plan">Current Plan</a>
+                                    </div>
+                                    <div class="setting__link">    
+                                        <a href="#" title="Team Members">Team Members</a>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 ml-auto">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                <div class="setting__item__right profile__information company__information">
+                                    <h3 class="mb-4">Company Information</h3>
+                                    <form class="common__form">
+                                        <div class="profile__picture__item">
+                                            <div class="profile__picture">
+                                                <!-- <img src="" class="img-fluid" alt="Profile Picture"> -->
+                                            </div>
+                                            <div class="edit__profile__picture">
+                                                <div class="file__label">Edit Company Logo</div>
+                                                <div clas="file_input_wrap">
+                                                    <input type="file" name="imageUpload" id="imageUpload" class="file__hide" />
+                                                    <label for="imageUpload" id="file_input_wrap_label" class="btn btn-sm mb-0">ATTACH A FILE</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="profile__user__detail__item mt-5">
+                                            <div class="form-row">
+                                                <div class="form-group col-md-6">
+                                                    <label for="company_name">Company Name (Full Legal Name)</label>
+                                                    <div class="frm__fld__input">
+                                                        <input class="form-control frm__fld" name="company-name" id="company_name" type="text" value="Phillips Distribution">    
+                                                        <a href="javascript:void(0);" class="frm__fld__edit__link field__inline__edit" title="Edit">Edit</a>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group col-md-6">
+                                                    <label for="brand_name">Brand Name/Trading Name (if different)</label>
+                                                    <div class="frm__fld__input">
+                                                        <input class="form-control frm__fld" name="brand-name" id="brand_name" type="text" value="Phillips Distribution">
+                                                        <a href="javascript:void(0);" class="frm__fld__edit__link field__inline__edit" title="Edit">Edit</a>
+                                                    </div>    
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="form-group col-md-12">
+                                                    <label for="registered_address">Registered Address</label>
+                                                    <div class="frm__fld__input">
+                                                        <textarea class="form-control frm__txtarea" id="registered_address" rows="3">Address First Line</textarea>
+                                                        <a href="javascript:void(0);" class="frm__fld__edit__link field__inline__edit" title="Edit">Edit</a>
+                                                    </div>    
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="form-group col-md-6">
+                                                    <label for="town_city">Town/City</label>
+                                                    <div class="frm__fld__input">
+                                                        <input class="form-control frm__fld" name="town-city" id="town_city" type="text" value="City">    
+                                                        <a href="javascript:void(0);" class="frm__fld__edit__link field__inline__edit" title="Edit">Edit</a>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group col-md-6">
+                                                    <label for="state">State/Province/Region</label>
+                                                    <div class="frm__fld__input">
+                                                        <input class="form-control frm__fld" name="state" id="state" type="text" value="State">
+                                                        <a href="javascript:void(0);" class="frm__fld__edit__link field__inline__edit" title="Edit">Edit</a>
+                                                    </div>    
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="form-group col-md-6">
+                                                    <label for="country">Country</label>
+                                                    <div class="frm__fld__input">
+                                                        <input class="form-control frm__fld" name="country" id="country" type="text" value="USA">    
+                                                        <a href="javascript:void(0);" class="frm__fld__edit__link field__inline__edit" title="Edit">Edit</a>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group col-md-6">
+                                                    <label for="post-zip">Postcode/ZIP Code</label>
+                                                    <div class="frm__fld__input">
+                                                        <input class="form-control frm__fld" name="post-zip" id="post_zip" type="text" value="Postcode">
+                                                        <a href="javascript:void(0);" class="frm__fld__edit__link field__inline__edit" title="Edit">Edit</a>
+                                                    </div>    
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="form-group col-md-6">
+                                                    <label for="company_type">Company Type</label>
+                                                    <div class="frm__fld__input">
+                                                        <input class="form-control frm__fld" name="company-type" id="company_type" type="text" value="Public Limited Company">    
+                                                        <a href="javascript:void(0);" class="frm__fld__edit__link field__inline__edit" title="Edit">Edit</a>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group col-md-6">
+                                                    <label for="number_employees">Number of Employees</label>
+                                                    <div class="frm__fld__input">
+                                                        <input class="form-control frm__fld" name="number-employees" id="number_employees" type="text" value="10-49">
+                                                        <a href="javascript:void(0);" class="frm__fld__edit__link field__inline__edit" title="Edit">Edit</a>
+                                                    </div>    
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="form-group col-md-12">
+                                                    <label for="c_website">Website</label>
+                                                    <div class="frm__fld__input">
+                                                        <input class="form-control frm__fld" name="c-website" id="c_website" type="text" value="https://www.website.com">    
+                                                        <a href="javascript:void(0);" class="frm__fld__edit__link field__inline__edit" title="Edit">Edit</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="form-group col-md-12">
+                                                    <label for="company_activity">Company Activity</label>
+                                                    <div class="frm__fld__input">
+                                                        <input class="form-control frm__fld" name="company-activity" id="company_activity" type="text" value="Production Company">    
+                                                        <a href="javascript:void(0);" class="frm__fld__edit__link field__inline__edit" title="Edit">Edit</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="form-group col-md-3">
+                                                    <input class="form-control btn btn-danger frm__sbt mt-4" name="sbu-ends" id="sbu_ends" type="submit" value="DELETE ACCOUNT">    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</div>	
+	</section>	
+
+	<footer id="footer">
+		<div class="footer-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="widget">
+                            <p class="text-uppercase m-0 copyright_text">Copyright &copy; 2021 Cinnect</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="widget">
+                                    <ul class="list foot_menu text-center text-md-right">
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Cookies Policy</a></li>
+                                        <li><a href="#">Terms Of Service</a></li>
+                                        <li><a href="#">FAQs</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</footer>
+
+    <script src="https://cdn.cinnect.net/js/jquery.js"></script>
+    <script src="https://cdn.cinnect.net/js/plugins.js"></script>
+    <script src="https://cdn.cinnect.net/js/functions.js"></script>
+    <script>
+        jQuery(document).ready(function() {
+            jQuery(".common__form").each(function() {
+              jQuery("input").prop('disabled', true);
+            });    
+
+            jQuery(".field__inline__edit").on('click', function(){
+                jQuery(this).hide();
+                jQuery(this).prev().prop('disabled', false).focus();
+            });
+        });
+    </script>  
+</body>
+</html>

@@ -1,0 +1,114 @@
+.product {
+    border: 1px solid lightgray;
+    border-radius: 11px; 
+    margin-top: 20px;
+    transition-property: width;
+    transition-duration: 0.5s;
+    position: relative;
+}
+
+.product-image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.product-description {
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.product-genre {
+    background-color: #898897;
+    border-radius: 20px;
+    font-size: 0.6rem;
+}
+
+.product:hover > .hover-item {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+.product-title h3 {
+    color: #312f75 !important;
+}
+
+.product-overlay {
+    height: 100px !important;
+    bottom: -100px !important;
+    line-height: 20px !important;
+    color: white;
+}
+
+.product:hover .product-overlay {
+    bottom: 0px !important;
+}
+
+
+.product-overlay a {
+    height: 100%;
+}
+
+.hover-item {
+    opacity: 0;
+    width: 100% !important;
+    height: 100.5%;
+    background-color: white;
+    border: 1px solid lightgrey;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    z-index: 300;
+    border-radius: 10px;
+    transition: all 0.5s;
+    overflow: hidden;
+}
+
+.hover-item-content {
+    position: absolute;
+    width: 100%;
+}
+
+.hover-item p {
+    margin-bottom: 5px;
+}
+
+.hover-item-dscription p{
+    font-size: 0.8rem;
+}
+
+.dropdown-menu {
+    left: -2rem !important;
+    width: 15rem !important;
+}
+
+@media only screen and (max-width:600px) {
+    .content-search {
+        width: 70%;
+    }
+
+    .content-search-btn {
+        height: 40px !important;
+    }
+
+    .content-opencall-btn {
+        margin-top: 20px;
+    }
+    .navbar-collapse {
+        padding: 20px;
+    }
+
+    .carousel {
+        margin-bottom: 100px;
+    }
+
+    .product:hover > .hover-item {
+        opacity: 1;
+        transform: none;
+
+    }
+
+}
+
+
+

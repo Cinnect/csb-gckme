@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Cinnect" />
+    <meta name="description" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Document title -->
+    <title>Open Calls</title>
+    <!-- Stylesheets & Fonts -->
+    <link href="https://cdn.cinnect.net/css/plugins.css" rel="stylesheet" />
+    <link href="https://cdn.cinnect.net/css/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.form.io/formiojs/formio.full.min.css"
+    />
+    <link rel="stylesheet" href="https://cdn.cinnect.net/fonts/branding.css" />
+    <link rel="stylesheet" href="./jake-styles.css" />
+    <link rel="stylesheet" href="./content.css" />
+    <link rel="stylesheet" href="./search.css" />
+    <link rel="stylesheet" href="./opencall.css" />
+    <!-- Google Tag Manager (noscript) -->
+    ​
+    <script src="https://cdn.form.io/formiojs/formio.full.min.js"></script>
+    <!-- Pixel Code for https://analytics.mysocialdesk.com/ -->
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-MF8L42F");
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- END Pixel Code -->
+  </head>
+  <body>
+    <!-- Body Inner -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-170299532-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-170299532-1");
+    </script>
+    <script
+      async
+      src="https://analytics.mysocialdesk.com/pixel/9PkSiudJhVLutVbT"
+    ></script>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <a class="navbar-brand logo-default" href="#"
+        ><img src="https://cdn.cinnect.net//images/logo.png"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item px-2">
+            <a class="nav-link active" href="#"
+              ><h5><i class="fas fa-columns"></i> Home</h5></a
+            >
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#"
+              ><h5><i class="fas fa-film"></i> Content Library</h5></a
+            >
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#"
+              ><h5><i class="fas fa-newspaper"></i> Newsroom</h5></a
+            >
+          </li>
+          <li class="nav-item dropdown px-2">
+            <a
+              class="nav-link"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              ><h5>
+                <i class="fas fa-bell"></i> Notifications
+                <i class="fas fa-angle-down"></i></h5
+            ></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#"
+                ><h6><i class="fas fa-bell"></i> Notification</h6></a
+              >
+            </div>
+          </li>
+          <li class="nav-item dropdown px-2 pr-lg-5">
+            <a
+              class="nav-link"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              ><h5>
+                <i class="fas fa-user-circle"></i> Jake
+                <i class="fas fa-angle-down"></i></h5
+            ></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#"
+                ><h6><i class="icon-user"></i> Edit Profile</h6></a
+              >
+              <a class="dropdown-item" href="#"
+                ><h6><i class="icon-settings"></i> Company Settings</h6></a
+              >
+              <a class="dropdown-item" href="#"
+                ><h6><i class="icon-log-out"></i> Log Out</h6></a
+              >
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Page title -->
+    <div class="container py-5">
+      <div class="row mb-5">
+        <div class="col-12">
+          <h1>Open Calls</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <a class="btn"> MY SUBMISSIONS</a>
+          <form class="form-inline nomargin mt-3 opencall-search">
+            <input
+              class="form-control content-search"
+              placeholder="Search"
+              aria-label="Search"
+              type="search"
+            />
+            <button
+              class="btn btn-sm btn-outline mb-0 ml-2 content-search-btn"
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
+          <h4 class="my-3">FILTER BY</h4>
+          <h6>Buyer Type</h6>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="exampleRadios"
+              id="exampleRadios1"
+              value="option1"
+              checked
+            />
+            <label class="form-check-label" for="exampleRadios1">
+              Distributor
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="exampleRadios"
+              id="exampleRadios2"
+              value="option2"
+            />
+            <label class="form-check-label" for="exampleRadios2">
+              Broadcaster
+            </label>
+          </div>
+          <div class="form-check disabled">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="exampleRadios"
+              id="exampleRadios3"
+              value="option3"
+            />
+            <label class="form-check-label" for="exampleRadios3">
+              VOD Platform
+            </label>
+          </div>
+          <div class="form-group px-0 my-3 col-8">
+            <label for="location">Location</label>
+            <select class="form-control" name="location" required="">
+              <option value="">Select your Location</option>
+              <option>Location 1</option>
+              <option>Location 2</option>
+              <option>Location 3</option>
+            </select>
+          </div>
+          <h4 class="mt-4">Genre</h4>
+          <div class="col-md-9 px-0 tags opencall-tags">
+            <a class="tag" href="">
+              <h5>Genre 1</h5>
+            </a>
+            <a class="tag" href="">
+              <h5>Genre 2</h5>
+            </a>
+            <a class="tag" href="">
+              <h5>Genre 3</h5>
+            </a>
+            <a class="tag" href="">
+              <h5>Genre 4</h5>
+            </a>
+            <a class="tag" href="">
+              <h5>Genre 5</h5>
+            </a>
+            <a class="tag" href="">
+              <h5>Genre 6</h5>
+            </a>
+          </div>
+          <h4 class="mt-4">Requested Rights</h4>
+          <form class="mb-5">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                name="requestedRights"
+                id="requestedRights1"
+                value="option1"
+                checked=""
+                type="radio"
+              />
+              <label class="form-check-label" for="requestedRights1">
+                Theatrical
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                name="requestedRights"
+                id="requestedRights2"
+                value="option2"
+                type="radio"
+              />
+              <label class="form-check-label" for="requestedRights2">
+                VOD (Video On Demand)
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                name="requestedRights"
+                id="requestedRights3"
+                value="option3"
+                type="radio"
+              />
+              <label class="form-check-label" for="requestedRights3">
+                EST (Electronic Sell Through)
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                name="requestedRights"
+                id="requestedRights3"
+                value="option3"
+                type="radio"
+              />
+              <label class="form-check-label" for="requestedRights3">
+                Videogram (Physical Video)
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                name="requestedRights"
+                id="requestedRights3"
+                value="option3"
+                type="radio"
+              />
+              <label class="form-check-label" for="requestedRights3">
+                Ancillary (Transport & Leisure)
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                name="requestedRights"
+                id="requestedRights3"
+                value="option3"
+                type="radio"
+              />
+              <label class="form-check-label" for="requestedRights3">
+                All rights
+              </label>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-9">
+          <div class="opencall-card border p-3 mb-5">
+            <h6>BirdBox</h6>
+            <h4 class="text-dark">
+              We are curating worthwhile, thought-provoking,
+              conversation-starting, award-winning, critically-acclaimed films
+              for our audience.
+            </h4>
+            <div class="row my-4 opencall__selected__p">
+              <div class="col-4 col-md-2">
+                <p class="my-0">Buyer Type</p>
+                <p class="my-0 text-bold">Video On Demand</p>
+              </div>
+              <div class="col-5 col-md-3">
+                <p class="my-0">Location</p>
+                <p class="my-0 text-bold">Worldwide</p>
+              </div>
+              <div class="col-3 col-md-2">
+                <p class="my-0">Date Posted</p>
+                <p class="my-0 text-bold">21st January 2022</p>
+              </div>
+              <div class="col-4 col-md-2">
+                <p class="my-0">Genre</p>
+                <p class="my-0 text-bold">Documentary</p>
+              </div>
+              <div class="col-5 col-md-3">
+                <p class="my-0">Requested Rights</p>
+                <p class="my-0 text-bold">Video On Demand, Non-Exclusive</p>
+              </div>
+            </div>
+            <p class="text-bold text-dark">Content Wanted</p>
+            <p class="text-dark">
+              We're looking looking for thought provoking documentaries from
+              around the world, especially with those related to environment and
+              social causes.
+            </p>
+
+            <div class="row mt-4">
+              <div class="col-md-2">
+                <a
+                  href="https://gckme.csb.app/seller-opencall-b.html"
+                  class="btn d-inline-block"
+                  >APPLY NOW</a
+                >
+              </div>
+              <div class="col-3">
+                <p class="text-bold my-0 text-dark">Days left to apply</p>
+                <p class="text-primary my-0">13 days</p>
+              </div>
+            </div>
+          </div>
+          <div class="opencall-card border p-3 mb-5">
+            <h6>Company Name</h6>
+            <h4 class="text-dark">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+              consectetur asperiores laboriosam voluptate commodi
+            </h4>
+            <div class="row my-4 opencall__selected__p">
+              <div class="col-4 col-md-2">
+                <p class="my-0">Buyer Type</p>
+                <p class="my-0 text-bold">Distributor</p>
+              </div>
+              <div class="col-5 col-md-3">
+                <p class="my-0">Location</p>
+                <p class="my-0 text-bold">Europe, North America</p>
+              </div>
+              <div class="col-3 col-md-2">
+                <p class="my-0">Date Posted</p>
+                <p class="my-0 text-bold">10 December 2019</p>
+              </div>
+              <div class="col-4 col-md-2">
+                <p class="my-0">Genre</p>
+                <p class="my-0 text-bold">Horror, Thriller</p>
+              </div>
+              <div class="col-5 col-md-3">
+                <p class="my-0">Requested Rights</p>
+                <p class="my-0 text-bold">All rights</p>
+              </div>
+            </div>
+            <p class="text-bold text-dark">About the project</p>
+            <p class="text-dark">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
+              iure voluptate eveniet, voluptas reprehenderit dolore mollitia
+              voluptatibus possimus deserunt accusamus non, provident aliquam
+              sequi quod libero, recusandae nesciunt neque incidunt.
+            </p>
+
+            <div class="row mt-4">
+              <div class="col-md-2">
+                <a href="" class="btn d-inline-block">APPLY NOW</a>
+              </div>
+              <div class="col-3">
+                <p class="text-bold my-0 text-dark">Days left to apply</p>
+                <p class="text-primary my-0">13 days</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end: Content -->
+    <!--Plugins-->
+
+    <script src="https://cdn.cinnect.net/js/jquery.js"></script>
+    <script src="https://cdn.cinnect.net/js/plugins.js"></script>
+    <!--Template functions-->
+    <script src="https://cdn.cinnect.net/js/functions.js"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+.opencall__selected__p p {
+  font-size: 9px;
+}
+.opencall-card {
+  border-radius: 10px;
+}
+.opencall-tags .tag {
+  padding: 3px 8px;
+  margin: 0.2rem 0.2rem 0.2rem 0 !important;
+}
+.opencall-tags .tag h5 {
+  font-size: 11px;
+}
+
+.opencall-search input {
+  padding: 5px 8px !important;
+  min-height: 20px !important;
+  height: 30px;
+}
+
+.opencall-item {
+  display: flex;
+  padding: 5px;
+}
+.remove-opencall {
+  margin-right: 10px;
+  color: red !important;
+  cursor: pointer;
+}
